@@ -1,29 +1,17 @@
 # css-specificity-calculator
+一个对CSS 选择器权重计算的网站
 
-## Project setup
-```
-yarn install
-```
+## 使用
+打开[https://css-specificity-calculator-gflmszgtt.now.sh](https://css-specificity-calculator-gflmszgtt.now.sh)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+如下：
+![](./imgs/page.png)
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+在输入框中输入`CSS specificity`
 
-### Run your tests
+```css
+div li a 
+html
+#id
+.class
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
